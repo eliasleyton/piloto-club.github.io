@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Piloto</title>
+	<!--
+
+    ██████╗ ██╗██╗      ██████╗ ████████╗ ██████╗
+    ██╔══██╗██║██║     ██╔═══██╗╚══██╔══╝██╔═══██╗
+    ██████╔╝██║██║     ██║   ██║   ██║   ██║   ██║
+    ██╔═══╝ ██║██║     ██║   ██║   ██║   ██║   ██║
+    ██║     ██║███████╗╚██████╔╝   ██║   ╚██████╔╝
+    ╚═╝     ╚═╝╚══════╝ ╚═════╝    ╚═╝    ╚═════╝
+
+    2014 - 2015 - 2016 - 2017
+
+    -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="Piloto">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://piloto.club/">
+    <meta property="og:image" content="http://piloto.club/img/logo-footer.png">
+    <meta property="og:site_name" content="Piloto">
+    <meta property="fb:app_id" content="310456882489952">
+    <meta property="og:description" content="Piloto nace a principios del 2014  en Santiago, y a la fecha se ha enfocado principalmente en la producción (musical y ejecutiva) de un joven grupo de bandas de pop de guitarras, nacidas en la zona sur, y que destacan por algo muy simple: su capacidad de hacer buenas canciones.">
+</head>
+<link rel="stylesheet" href="dist/sierra.min.css">
+<link href="https://fonts.googleapis.com/css?family=Overpass+Mono|Share+Tech+Mono" rel="stylesheet">
+<body>
+	<main>
+        <div class="container">
+            <section class="section">
+                <div class="align-center">
+                    <img class="main-logo" src="http://piloto.club/img/logo-footer.png" alt="Piloto 2017" width="100px" />
+                </div>
+            </section>
+		</div>
+		<section class="section" id="output">
+
+		</section>
+	</main>
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script> 
+	<script type="text/javascript" src="bower_components/mustache.js/mustache.min.js"></script>
+	<script type="text/javascript" src="dev/app.js"></script>
+</body>
+<script type="text/html" id="discography">
+    {{#discography}}
+    	<div class="container-medium">
+    		<h1 class="align-center text-big">{{year}}</h1>
+    		{{#releases}}
+    		<!-- album -->
+    		<h2 class="text-big">{{artist}} - {{name}} <span class="text-italic">({{type}})</span></h2>
+    		<p>{{description}}</p>
+    		<section class="align-center" id="{{slug}}">
+				<iframe src="https://embed.spotify.com/?uri={{spotify_uri}}&theme=white&view=coverart" width="540" height="80" frameborder="0" allowtransparency="true"></iframe>
+	    		<br>
+    			<a href="{{download_url}}" class="button button-small button-transparent">Descarga Directa</a>
+    			<a href="{{youtube_url}}" class="button button-small button-transparent" style="color: #ff3333">Youtube</a>
+    		</section>
+	    	<!-- end album -->
+	    	{{/releases}}
+	    </div>
+    {{/discography}}
+</script>
+</html>

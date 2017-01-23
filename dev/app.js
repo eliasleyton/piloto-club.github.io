@@ -1,8 +1,7 @@
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function(){ 
     
-    var output   = $("#output");    
     var template = $("#discography").html();
-    
+
     var releases = { discography : [
         {
             year : "2016",
@@ -217,5 +216,6 @@ $(document).ready(function () {
     ]};
 
     html = Mustache.render(template, releases);
-    output.append(html);
+
+    $("#output").append(html);
 });

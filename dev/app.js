@@ -4,6 +4,21 @@ document.addEventListener('DOMContentLoaded', function(){
 
     var releases = { discography : [
         {
+            year : "2017",
+            releases: [
+                {
+                    artist: "Animales Extintos",
+                    name: "Los vientos y las ganas",
+                    slug: "",
+                    type: "EP",
+                    spotify_uri: "",
+                    download_url: "http://smarturl.it/ae-los-vientos",
+                    description: "Los Vientos y las Ganas, contiene 5 canciones llenas de potencia y honestidad que se mueven entre el punk, el rock y el pop donde Animales Extintos canta sobre historias de amistad, amor y escapar de lo cotidiano. El álbum, fue grabado en Estudios Rob, por Simón Campusano y Pepe Mazurett (integrantes de Niños del Cerro).",
+                    youdube_url: ""
+                }
+            ]
+        },
+        {
             year : "2016",
             releases: [
                 {

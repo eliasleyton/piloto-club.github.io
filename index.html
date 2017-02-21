@@ -37,7 +37,7 @@
             </section>
 		</div>
         <div class="container">
-            <!-- album -->
+            <!--
             <img src="img/patio-solar.jpg">
             <h2 class="text-big text-center">Patio Solar - Migración <span class="text-italic">(Lp)</span></h2>
             <p>Patio Solar lanza su segundo disco logrando su trabajo más diverso, expansivo y complejo en lo musical, abarcando terrenos que habían explorado en entregas anteriores, uniéndolas de manera curiosa y atrevida.</p>
@@ -46,7 +46,7 @@
                 <a href="https://youtu.be/PLo54P1fkNc" class="button button-small button-transparent" style="color: #ff3333">Youtube</a>
             </section>
 
-            <!-- end album -->
+            -->
         </div>
 		<section class="section" id="output">
 		</section>
@@ -60,14 +60,15 @@
     	<div class="container-medium">
     		<h1 class="align-center text-big">{{year}}</h1>
     		{{#releases}}
-    		<!-- album -->
-    		<h2 class="text-big">{{artist}} - {{name}} <span class="text-italic">({{type}})</span></h2>
+            <!-- album -->
+            {{#photo}}<img src="{{photo}}" alt="{{artist}} - {{name}}">{{/photo}}
+            <h2 class="text-big">{{artist}} - {{name}} <span class="text-italic">({{type}})</span></h2>
     		<p>{{description}}</p>
     		<section class="align-center" id="{{slug}}">
-				<iframe src="https://embed.spotify.com/?uri={{spotify_uri}}&theme=white&view=coverart" width="540" height="80" frameborder="0" allowtransparency="true"></iframe>
+				<iframe src="https://embed.spotify.com/?uri={{spotify_uri}}&theme=white&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 	    		<br>
-    			<a href="{{download_url}}" class="button button-small button-transparent">Descarga Directa</a>
-    			<!-- <a href="{{youtube_url}}" class="button button-small button-transparent" style="color: #ff3333">Youtube</a> -->
+                {{#download_url}}<a href="{{download_url}}" class="button button-small button-transparent">Descarga Directa</a>{{/download_url}}
+                {{#youtube_url}}<a href="{{youtube_url}}" class="button button-small button-transparent" style="color: #ff3333">Youtube</a>{{/youtube_url}}
     		</section>
 	    	<!-- end album -->
 	    	{{/releases}}

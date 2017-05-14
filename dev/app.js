@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', function(){
             releases: [
                 {
                     artist: "Mal Villano",
-                    name: "Amor de balneario",
+                    name: "Amor de Balneario",
                     slug: "",
                     type: "EP",
                     photo: "img/mal-villano.jpg",
-                    spotify_uri: "",
+                    spotify_uri: false,
                     download_url: "http://smarturl.it/malvillano-amordb",
                     description: "Surf pop con aires de playa ochentera, así se define el EP debut de Mal Villano, Amor de Balneario, que a través de sus seis canciones evoca historias de amor, despecho y melancolía.",
                     youtube_url: "https://youtu.be/yR1IclTqhz8"

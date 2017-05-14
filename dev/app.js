@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', function(){
             year : "2017",
             releases: [
                 {
+                    artist: "Mal Villano",
+                    name: "Amor de balneario",
+                    slug: "",
+                    type: "EP",
+                    photo: "img/mal-villano.jpg",
+                    spotify_uri: "",
+                    download_url: "http://smarturl.it/malvillano-amordb",
+                    description: "Surf pop con aires de playa ochentera, así se define el EP debut de Mal Villano, Amor de Balneario, que a través de sus seis canciones evoca historias de amor, despecho y melancolía.",
+                    youtube_url: "https://youtu.be/yR1IclTqhz8"
+                },{
                     artist: "Patio Solar",
                     name: "Migración",
                     slug: "",

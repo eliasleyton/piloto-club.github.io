@@ -105,15 +105,6 @@ document.addEventListener('DOMContentLoaded', function(){
                     download_url: "http://smarturl.it/ablusion-st",
                     description: "",
                     youtube_url: "https://youtu.be/gnIGyFjWqtU"
-                }, {
-                    artist: "Los Valentina",
-                    name: "Señoras",
-                    slug: "",
-                    type: "EP",
-                    spotify_uri: "spotify:album:0JtXn99bSPKUp8q6Dyn3uH",
-                    download_url: "http://smarturl.it/senoras",
-                    description: "",
-                    youtube_url: "https://youtu.be/JOLh1DEaVqc"
                 }, 
                 {
                     artist: "MonoAzul",

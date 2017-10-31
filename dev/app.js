@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     slug: "",
                     type: "EP",
                     spotify_uri: "spotify:album:7GCiXLLsGzpCOeH3WRjMOK",
-                    download_url: "http://smarturl.it/centinela-al-vuelo",
+                    download_url: "http://smarturl.it/centinela-el-vuelo",
                     description: "",
                     youtube_url: "https://youtu.be/_VIKgcbeoFQ"
                 }, {

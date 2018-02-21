@@ -7,6 +7,17 @@ document.addEventListener('DOMContentLoaded', function(){
             year : "2017",
             releases: [
                 {
+                    artist: "Niños del Cerro",
+                    name: "Contigo",
+                    slug: "",
+                    type: "Simple",
+                    photo: "img/ninos-del-cerro.jpg",
+                    spotify_uri: "spotify:track:6KpUoDoQXpJyK8y226l04G",
+                    download_url: "http://smarturl.it/ndc-contigo",
+                    description: "Rítmica carioca, instrumentación de fiesta, y algo de melancolía. “Contigo”, la primera canción de amor compuesta por Simón Campusano, adelanta los puntos fuertes de lo que será el segundo álbum de Niños del Cerro.",
+                    youtube_url: "https://youtu.be/NzZKZk4syOw"
+                },
+                {
                     artist: "Mal Villano",
                     name: "Amor de Balneario",
                     slug: "",

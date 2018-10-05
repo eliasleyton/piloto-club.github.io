@@ -24,11 +24,17 @@
     <meta property="og:site_name" content="Piloto">
     <meta property="fb:app_id" content="310456882489952">
     <meta property="og:description" content="Piloto nace a principios del 2014  en Santiago, y a la fecha se ha enfocado principalmente en la producción (musical y ejecutiva) de un joven grupo de bandas de pop de guitarras, nacidas en la zona sur, y que destacan por algo muy simple: su capacidad de hacer buenas canciones.">
-    <link rel="stylesheet" href="dist/sierra.min.css">
+    <link rel="stylesheet" href="dev/sierra.css">
     <link href="https://fonts.googleapis.com/css?family=Overpass+Mono|Share+Tech+Mono" rel="stylesheet">
 </head>
 <body>
 	<main>
+        <center>
+            <br>
+            <br>
+            <br>
+            <img src="img/logo-rojo.png" alt="Logo" width="100px">
+        </center>
 		<section class="section" id="output">
 		</section>
 	</main>
@@ -42,17 +48,28 @@
     		<h1 class="align-center text-big">{{year}}</h1>
     		{{#releases}}
             <!-- album -->
-            {{#photo}}<img src="{{photo}}" alt="{{artist}} - {{name}}">{{/photo}}
-            <h2 class="text-big">{{artist}} - {{name}} <span class="text-italic">({{type}})</span></h2>
-    		<p>{{description}}</p>
+            {{#photo}}<img src="{{photo}}" alt="{{artist}} - {{name}}" style="border: 8px solid #000">{{/photo}}
+            <h2 class="text-big" style=" text-align: center;">{{artist}} - {{name}} <span class="text-italic">({{type}})</span></h2>
+    		<p>{{{description}}}</p>
     		<section class="align-center" id="{{slug}}">
+                {{#download_url}}<a href="{{download_url}}" class="button button-small button-red" style="color: #000">Descarga ♥️</a>{{/download_url}}
+                {{#youtube_url}} <a href="{{youtube_url}}" class="button button-small button-red" style="color: #000;">Lyric video 🎶</a>{{/youtube_url}}
+                {{#bandcamp_url}} <a href="{{bandcamp_url}}" class="button button-small button-red" style="color: #000;">En la tienda (Bandcamp) 💿</a>{{/bandcamp_url}}
+                <br>
+                <br>
+                
+                
+                Spotify 👇
+                <br>
+                <br>
                 {{#spotify_uri}}
 				<iframe src="https://embed.spotify.com/?uri={{spotify_uri}}&theme=white&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
                 <br>
                 {{/spotify_uri}}
-                {{#download_url}}<a href="{{download_url}}" class="button button-small button-transparent">Descarga Directa</a>{{/download_url}}
-                {{#youtube_url}}<a href="{{youtube_url}}" class="button button-small button-transparent" style="color: #ff3333">Youtube</a>{{/youtube_url}}
+                
+
                 <br>
+                <span style="opacity: 0.2;">PLT-SIA-S.21-OC18</span>
     		</section>
 	    	<!-- end album -->
 	    	{{/releases}}

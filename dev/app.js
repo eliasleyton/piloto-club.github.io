@@ -258,15 +258,15 @@ document.addEventListener('DOMContentLoaded', function(){
             releases: [
                 {
                     artist: "Silabario",
-                    name: "Fotográfica",
+                    name: "Berín",
                     slug: "",
                     type: "Simple",
                     photo: "img/silabario.jpg",
                     spotify_uri: "spotify:album:47GbeO7OMWVmzu1GmQ0IXN",
-                    download_url: "http://smarturl.it/slb-foto",
+                    // download_url: "http://smarturl.it/slb-foto",
                     description: "Silabario, agrupación liderada por Walter Pérez (voz, guitarra) y Francisca Fuentes (voz, teclados) presenta Fotográfica, primer single de lo que será el disco debut de la banda. Esta sentida canción con referencias al dream pop de Julee Cruise, David Lynch y Beach House, es parte de un proyecto de más de cuatro años de trabajo.<br><br> La banda es una de las primeras agrupaciones fichadas por Piloto. Aunque ha tenido diferentes integrantes, su centro creativo está en la dupla Walter Pérez y Francisca Fuentes. <b>Fotográfica</b> fue compuesta por Walter Pérez y grabada por Alex Rojas y Silabario. El álbum doble de Silabario será editado a fines del 2018 por Piloto.",
-                    youtube_url: "https://youtu.be/9wGfbgf6Ynk",
-                    bandcamp_url: "https://pilotoscl.bandcamp.com/album/fotogr-fica",
+                    youtube_url: "https://youtu.be/AWzeeBMaw94",
+                    bandcamp_url: "https://pilotoscl.bandcamp.com/track/berl-n",
                     
                 }]
         }

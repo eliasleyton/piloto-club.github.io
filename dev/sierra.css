@@ -112,7 +112,7 @@ section {
 }
 
 body {
-    background-color: #dd2c00;
+    background-color: #fc983d;
     color: #000;
     min-height: 100%;
     overflow-x: hidden;
@@ -174,7 +174,7 @@ pre {
 }
 
 .background-error {
-    background-color: #e74c3c
+    background-color: #c17530
 }
 
 .background-gray {
@@ -186,7 +186,7 @@ pre {
 }
 
 .background-rating1 {
-    background-color: #dd2c00
+    background-color: #fc983d
 }
 
 .background-rating2 {
@@ -271,7 +271,7 @@ pre {
 }
 
 .badge-error {
-    background-color: #e74c3c
+    background-color: #c17530
 }
 
 .badge-warning {
@@ -398,8 +398,8 @@ button {
 }
 
 .button.button-red {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #c17530;
+    border-color: #c17530;
     color: #fff
 }
 
@@ -544,7 +544,7 @@ textarea {
 .input.error,
 .select.error,
 .textarea.error {
-    border: 1px solid #e74c3c;
+    border: 1px solid #c17530;
     margin-bottom: 0
 }
 
@@ -566,7 +566,7 @@ textarea {
 }
 
 label.error {
-    color: #e74c3c;
+    color: #c17530;
     font-size: 13px;
     line-height: 13px;
     position: absolute;
@@ -1461,11 +1461,11 @@ input[type=radio]:checked+label:before {
 }
 
 .rating-circle.rating-color-1 {
-    color: #dd2c00
+    color: #fc983d
 }
 
 .rating-circle.rating-color-1 .circle-fill {
-    background-color: #dd2c00
+    background-color: #fc983d
 }
 
 .rating-circle.rating-color-2 {
@@ -1959,7 +1959,7 @@ label.label {
 }
 
 .text-error {
-    color: #e74c3c
+    color: #c17530
 }
 
 .table-responsive td:before,
@@ -1973,7 +1973,7 @@ label.label {
 }
 
 .text-rating1 {
-    color: #dd2c00
+    color: #fc983d
 }
 
 .text-rating2 {

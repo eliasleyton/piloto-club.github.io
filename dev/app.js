@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function(){
             releases: [
                 {
                     artist: "Silabario",
-                    name: "Berín",
+                    name: "Berlín",
                     slug: "",
                     type: "Simple",
                     photo: "img/silabario.jpg",

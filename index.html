@@ -33,7 +33,7 @@
             <br>
             <br>
             <br>
-            <img src="img/logo-naranja.png" alt="Logo" width="100px">
+            <img src="img/logo-blue.png" alt="Logo" width="100px">
         </center>
 		<section class="section" id="output">
 		</section>
@@ -43,36 +43,52 @@
 	<script type="text/javascript" src="dev/app.js"></script>
 </body>
 <script type="text/html" id="discography">
-    {{#discography}}
     	<div class="container-medium">
-    		<h1 class="align-center text-big">{{year}}</h1>
-    		{{#releases}}
+    		<h1 class="align-center text-big">2018</h1>
             <!-- album -->
-            {{#photo}}<img src="{{photo}}" alt="{{artist}} - {{name}}" style="border: 8px solid #000">{{/photo}}
-            <h2 class="text-big" style=" text-align: center;">{{artist}} - {{name}} <span class="text-italic">({{type}})</span></h2>
-    		<p>{{{description}}}</p>
-    		<section class="align-center" id="{{slug}}">
-                {{#download_url}}<a href="{{download_url}}" class="button button-small button-red" style="color: #000">Descarga ♥️</a>{{/download_url}}
-                {{#youtube_url}} <a href="{{youtube_url}}" class="button button-small button-red" style="color: #000;">Lyric video 🎶</a>{{/youtube_url}}
-                {{#bandcamp_url}} <a href="{{bandcamp_url}}" class="button button-small button-red" style="color: #000;">En la tienda (Bandcamp) 💿</a>{{/bandcamp_url}}
-                
+            <center>
+                <img src="/img/lomalo-rojo.jpg" alt="Silabario - Lo Malo Va a Pasar" style="  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="400px">
+                <img src="/img/lomalo-verde.jpg" alt="Silabario - Lo Malo Va a Pasar" style="  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="400px">
+            </center>
+            <h2 class="text-big" style=" text-align: center;">Silabario - Lo Malo Va a Pasar <span class="text-italic">(LP)</span></h2>
+    		<p></p>
+            <pre>
+                "Nada recuerdo pero el sentimiento vive
+                Llevo en la carne los tiempos infantiles
+                Y los antes de los antes con sus ruidos confusos
+                Las épocas de los grandes principios
+                Y de las formaciones en fantasmagorías imprevisibles
+                Cuando el mar apenas aprendía a hablar
+                Y los árboles no sabían lo que iban a ser
+                Y la vida se estrellaba entre las rocas 
+
+                Despiértame y grítame que estoy viviendo en hoy
+                Sé muy bien que si hubiera comido ciertas hierbas
+                Sería paloma mensajera
+                Y podría encontrarte a la sombra de esa flor que es la tarde
+                Pero el murmullo nada indica
+                Los barcos han partido hacia sus pájaros
+                Ya no es tiempo
+                Esto es la único seguro entre los huracanes dados vuelta
+                Ya no es tiempo
+                La tarde se entierra seguida de sus selvas".
+
+                Vicente Huidobro, "Tenemos un cataclismo adentro" (fragmento), Ver y palpar, Santiago 1941.
+            </pre>
+            <section class="align-center" id="lomalo">
+                <a href="https://smarturl.it/lmvap" class="button button-small button-red" style="color: #000">Descarga</a>
+                <a href="https://www.youtube.com/watch?v=k5wabiNnpvE" class="button button-small button-red" style="color: #b43150;">Full ALbum</a>
+                <a href="https://www.youtube.com/watch?v=vfvd_bXPhpM" class="button button-small button-red" style="color: #179e75;">Full ALbum</a>
                 <br>
-                <!-- <a href="magnet:?xt=urn:btih:B32B9AB1868BD7FE50FEB61F88318C75176304A1&dn=Silabario%20-%20Fotogra%cc%81fica" class="button button-small button-red" style="color: #000;">Torrent 🔗</a>
-                    <a href="http://instagram.com/sadfunsadclub/" class="button button-small button-red" style="color: #000;">Copias físicas en SADFUNSADCLUB 🙂🙃🙂</a>
-                <br>
-                <br> -->
-                
-                Spotify 👇
                 <br>
                 <br>
-                
-                <iframe src="https://embed.spotify.com/?uri=spotify:album:7duLQ08y4r1L3dE60gm0GN&theme=white&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+                <iframe src="https://embed.spotify.com/?uri=spotify:album:0UaaS5BzzaB7IWIMyrKexG&theme=white&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+                <iframe src="https://embed.spotify.com/?uri=spotify:album:6eTNhc32FQgBD4bk70bQdI&theme=white&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
                 <br>
-                <span style="opacity: 0.2;">PLT-SIA-S.21-OC18</span>
+                <br>
+                <span style="opacity: 0.2;">PLT-Тýполев-Ту-95-DI18</span>
     		</section>
 	    	<!-- end album -->
-	    	{{/releases}}
 	    </div>
-    {{/discography}}
 </script>
 </html>
